@@ -1,0 +1,52 @@
+---
+title: "vw034_Netzwerkanalyse_Testat"
+output: html_document
+autor: Victoria Wahl
+Kürzel: vw034
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+library(igraph)
+```
+
+
+Edgelist, Nodelist, Codebook: [Github-Account](https://github.com/vw034/vw034_Netzwerkanalyse_Testat) 
+
+```{r Netzwerk einlesen}
+
+library(igraph)
+
+#Einlesen der Edge- und Nodelist
+edges <- read.csv("https://raw.githubusercontent.com/vw034/vw034_Netzwerkanalyse_Testat/main/vw034_Testat_Edgelist.csv", header=T, as.is=T, sep = ",")
+
+nodes <- read.csv("https://raw.githubusercontent.com/vw034/vw034_Netzwerkanalyse_Testat/main/vw034_Testat_Nodelist.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(edges)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt n
+vfb <- graph_from_data_frame(d=edgematrix, directed=F)
+vfb
+
+```
+
+
+```{r Netzwerk analysieren, fig.height=6, fig.width=9}
+
+plot(vfb,
+     asp=0,
+     layout=layout_nicely,
+     rescale=TRUE,
+     vertex.size=degree(vfb)*5,
+     vertex.frame.color="black",
+     edge.color="black",
+     edge.arrow.size=2,
+     main="VfB",
+     sub="Visualisierung des VfB Kaders 21/22")
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
