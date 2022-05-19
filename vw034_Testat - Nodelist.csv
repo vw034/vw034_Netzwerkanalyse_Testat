@@ -1,0 +1,87 @@
+id,name,country,type
+1,Florian Müller,DE,1
+33,Fabian Bredlow,DE,1
+42,Florian Schock,DE,1
+5,Konstantinus Mavropanos,GR,1
+2,Waldemar Anton,DE,1
+37,Hiroki Ito,JP,1
+24,Borna Sosa,HR,1
+15,Pascal Stenzel,DE,1
+23,Orel Mangala,BE,1
+3,Wataru Endo,JP,1
+16,Atakan Karazor,DE,1
+32,Naouirou Ahamada,FR,1
+6,Clinton Mola,GB,1
+8,Enzo Millot,FR,1
+28,Nikolas Nartey,DK,1
+14,Silas Katompa Mvumpa,CD,1
+30,Roberto Massimo,DE,1
+11,Erik Thommy,DE,1
+20,Philipp Förster,DE,1
+31,Mateo Klimowicz,DE,1
+25,Lilian Egloff,DE,1
+34,Ömer Beyaz,TK,1
+10,Daniel Didavi,DE,1
+7,Tanguy Coulibali,FR,1
+22,Chris Führich,DE,1
+9,Sasa Kalajdzic,AT,1
+18,Tiago Tomás,PT,1
+17,Omar Marmoush,EG,1
+19,Wahid Faghir,DK,1
+50,Alexis Tibidi,FR,1
+44,Mohamed Sankoh,NL,1
+DE,Deutschland,,
+GR,Griechenland,,
+UZ,Usbekistan,,
+JP,Japan,,
+HR,Kroatien,,
+BE,Belgien,,
+CD,DR Kongo,,
+FR,Frankreich,,
+KM,Komoren,,
+GB,England,,
+MQ,Martinique,,
+DK,Dänemark,,
+GH,Ghana,,
+IT,Italien,,
+AR,Argentinien,,
+TR,Türkei,,
+BJ,Benin,,
+CI,Elfenbeinküste,,
+PT,Portugal,,
+EG,Ägypten,,
+CA,Kanada,,
+AF,Afghanistan,,
+CM,Kamerun,,
+NL,Niederlande,,
+SL,Sierra Leone,,
+SRB,Serbien,,
+MCO,Monaco,,
+FC1,1. FCV Mainz,DE,2
+FC2,1. FC Nürnberg,DE,2
+FC3,VFB Stuttgart II,DE,2
+FC4,FC Arsenal,GB,2
+FC5,Hannover 96,DE,2
+FC6,Júbilo Iwata,JP,2
+FC7,GNK Dinamo Zagreb,HR,2
+FC8,SC Freiburg,DE,2
+FC9,RSC Anderlecht U21,BE,2
+FC10,VV St. Truiden,BE,2
+FC11,Holstein Kiel,DE,2
+FC12,Juventus Turin U23,IT,2
+FC13,FC Chelsea U23,GB,2
+FC14,AS Monaco,MCO,2
+FC15,FC Köln,DE,2
+FC16,Paris FC,FR,2
+FC17,Arminia Bielefeld U19,DE,2
+FC18,FC Augsburg,DE,2
+FC19,SV Sandhausen,DE,2
+FC20,Instituto AC Córdoba,AR,2
+FC21,VFB Stuttgart U19,DE,2
+FC22,Fenerbahce Istanbul,TK,2
+FC23,VfL Wolfsburg,DE,2
+FC24,Paris SG 19,FR,2
+FC25,SC Paderborn,DE,2
+FC26,Admira Wacker,AT,2
+FC27,Sporting Lissabon,PT,2
+FC28,Vejle Boldklub,DK,2
